@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "description": "Jonathen's Personal Web Page",
+  "main": "index.js",
+  "authors": [
+    "Jonathen Chen"
+  ],
+  "scripts": {
+    "start": "nodemon Server/server.js",
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/jonathen09/portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "Client/lib"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-route": "^1.5.6",
+    "angular-mocks": "^1.5.6"
+  }
+}
